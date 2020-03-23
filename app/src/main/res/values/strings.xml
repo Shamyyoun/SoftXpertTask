@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Softxpert</string>
+    <string name="used">Used</string>
+    <string name="_new">New</string>
+    <string name="brand">Brand: </string>
+    <string name="status">Status: </string>
+    <string name="construction_year">Construction year: </string>
 </resources>

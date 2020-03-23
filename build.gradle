@@ -37,4 +37,5 @@ ext {
     archLifecycleVersion = '2.2.0'
     coreTestingVersion = '2.1.0'
     materialVersion = '1.1.0'
+    glideVersion = '4.9.0'
 }

@@ -1,7 +1,7 @@
 package com.example.softxpert.di.modules;
 
 import com.example.softxpert.app.Const;
-import com.example.softxpert.data.datasources.remote.UserApi;
+import com.example.softxpert.data.datasources.remote.CarApi;
 
 import javax.inject.Singleton;
 
@@ -36,7 +36,7 @@ public abstract class NetworkModule {
 
     @Provides
     @Singleton
-    static UserApi provideUserApi(Retrofit retrofit) {
-        return retrofit.create(UserApi.class);
+    static CarApi provideUserApi(Retrofit retrofit) {
+        return retrofit.create(CarApi.class);
     }
 }

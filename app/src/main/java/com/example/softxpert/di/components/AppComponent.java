@@ -1,8 +1,8 @@
 package com.example.softxpert.di.components;
 
-import com.example.softxpert.MainActivity;
 import com.example.softxpert.di.modules.ContextModule;
 import com.example.softxpert.di.modules.NetworkModule;
+import com.example.softxpert.ui.cars.CarsActivity;
 
 import javax.inject.Singleton;
 
@@ -12,5 +12,5 @@ import dagger.Component;
 @Component(modules = {NetworkModule.class, ContextModule.class})
 public interface AppComponent {
 
-    void inject(MainActivity mainActivity);
+    void inject(CarsActivity mainActivity);
 }
